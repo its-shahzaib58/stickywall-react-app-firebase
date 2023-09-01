@@ -1,0 +1,37 @@
+
+@import 'scss/bootstrap';
+@import 'scss/auth';
+
+.loader-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+#root::-webkit-scrollbar{
+   display: none;
+}
+
+#root{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.border-shadows{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.scroll-hide::-webkit-scrollbar{
+    display: none;
+}
+.scroll-hide{
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+
+.list-hover{
+    :hover{
+    background-color: rgb(197, 197, 7);
+    }
+}
