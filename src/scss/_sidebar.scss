@@ -1,0 +1,25 @@
+@import '../css-config/mixins.scss';
+.sidebar{
+    background-color: #62BC47;
+    .ant-divider{
+        display: none;
+        @include md{
+            color: white;
+            display: block;
+        }
+    }
+    h5{
+        color: white;
+    }
+    ul{
+       border-radius: 10px;
+        .ant-menu-title-content{
+    
+            display: none;
+            @include md{
+                display: inline-block;
+            
+            }
+        }
+    }
+}

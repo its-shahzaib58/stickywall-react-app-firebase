@@ -14,7 +14,7 @@ export default function index() {
             alignItems:'center',
           }}
     >
-    <img src={logo} alt="logo" className='img-fuild rounded-circle mx-2' style={{width:'50px',}}/><h5 className='text-center'>Sticky Wall</h5>
+    <img src={logo} alt="logo" className='img-fuild rounded-circle mx-2' style={{width:'50px',}}/><h5 className='text-center'>Student Management System</h5>
     </Header>
   )
 }

@@ -3,24 +3,14 @@ import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
 import { getFirestore  } from "firebase/firestore";
 
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDgZ8EB3VcucovwkZqBGQPG1q8bwRgB6Jw",
-//   authDomain: "todo-firebase-app-d60f3.firebaseapp.com",
-//   projectId: "todo-firebase-app-d60f3",
-//   storageBucket: "todo-firebase-app-d60f3.appspot.com",
-//   messagingSenderId: "856317405956",
-//   appId: "1:856317405956:web:6c237d56767032d8fefe51",
-//   measurementId: "G-Y2XGF18GEK"
-// };
-
 const firebaseConfig = {
-  apiKey: "AIzaSyA8YezukkMJzP1rMcTFaPN0DiMgUjTSvG0",
-  authDomain: "sticky-wall-92a0c.firebaseapp.com",
-  projectId: "sticky-wall-92a0c",
-  storageBucket: "sticky-wall-92a0c.appspot.com",
-  messagingSenderId: "595657336623",
-  appId: "1:595657336623:web:b0ff7562b467169893a3da",
-  measurementId: "G-NKXF8Z5R44"
+  apiKey: "AIzaSyBidzH9O_ZMhHTPI68VS83GwSK5Pl32rPo",
+  authDomain: "student-m-s.firebaseapp.com",
+  projectId: "student-m-s",
+  storageBucket: "student-m-s.appspot.com",
+  messagingSenderId: "736257336739",
+  appId: "1:736257336739:web:8706f5fd884189ac286616",
+  measurementId: "G-GRXR6ZW2QE"
 };
 
 // Initialize Firebase

@@ -5,12 +5,10 @@ import { Content } from 'antd/es/layout/layout';
 // Components
 import Sider from '../Components/Sider';
 import Header from '../Components/Header';
-import Profile from './Profile'
-import StickyWall from '../Home/StickyWall'
-import Upcoming from '../Home/Upcoming'
-import Today from '../Home/Today'
-import Calcendar from '../Home/Calcendar'
-import List from './List';
+import Dashboard from '../Home/Dashboard'
+import Students from './Students';
+import Courses from './Courses';
+import Attendance from './Attendance';
 
 export default function Home() {
   return (
@@ -22,17 +20,18 @@ export default function Home() {
     }}
      >
       {/* Sider */}
-      <Col span={6} className='bg-light'
+      <Col span={4} className='sidebar'
         style={{
           borderRadius:'20px',
           alignItems:'center',
           padding:5,
+        
         }}
         >
         <Sider/>
 
         </Col>
-        <Col span={18} className='bg-white px-2'>
+        <Col span={20} className='bg-white px-2'>
           {/* Header */}
           <Row className='bg-white border-shadows' 
           style={{
@@ -53,12 +52,11 @@ export default function Home() {
           >
           <Content>
           <Routes>
-            <Route path='/upcoming' element={<Upcoming/>}/>
-            <Route path='/today' element={<Today/>}/>
-            <Route path='/calendar' element={<Calcendar/>}/>
-            <Route path='/list/:id' element={<List/>}/>
-            <Route path='/' element={<StickyWall/>}/>
-            <Route path='/profile' element={<Profile/>}/>
+            <Route path='/' element={<Dashboard/>}/>
+            <Route path='/students' element={<Students/>}/>
+            <Route path='/course' element={<Courses/>}/>
+            <Route path='/attendance' element={<Attendance/>}/>
+            
           </Routes>
           </Content>
           </Row>

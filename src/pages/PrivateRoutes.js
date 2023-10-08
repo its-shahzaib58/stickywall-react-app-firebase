@@ -6,9 +6,6 @@ export default function PrivateRoute({ Component }) {
     const { isAuth } = useAuthContext()
     const location = useLocation()
 
-    if (!isAuth)
-        return <Navigate to="/auth/login" state={{ from: location.pathname }} replace />
-
     return (
         <Component />
     )

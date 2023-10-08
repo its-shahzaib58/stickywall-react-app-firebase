@@ -45,7 +45,7 @@ export default function Signup() {
         setIsProccessing(false)
         message.error(error.message)
     // ..
-  });
+      });
     } catch (errorInfo) {
       message.error("Please fill up all fields.")
       setIsProccessing(false)
